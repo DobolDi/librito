@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "la marcha de las letras"
+  author: "Norah Jones"
+  date: "1/13/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
+
+
+
